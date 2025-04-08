@@ -14,10 +14,20 @@ class ViewController: UIViewController, UITableViewDataSource {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        
+        navigationController?.navigationBar.prefersLargeTitles = true
         tableView.dataSource = self
         fetchPosts()
 
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        if let selectedIndexPath = tableView.indexPathForSelectedRow {
+            tableView.deselectRow(at: selectedIndexPath, animated: animated)
+        }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
