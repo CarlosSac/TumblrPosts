@@ -4,16 +4,16 @@ Submitted by: **Carlos Sac**
 
 **Tumblr Posts** is an app that fetches posts from Tumblr and lets you see them in the app 
 
-Time spent: **X** hours spent in total
+Time spent: **4** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
 - [x] Setup navigation to the Detail Screen
-- [ ] Created the Detail View UI
-- [ ] Add the ability to pass data to the Detail View Controller
-- [ ] Made personal finishing touches to the UI
+- [x] Created the Detail View UI
+- [x] Add the ability to pass data to the Detail View Controller
+- [x] Made personal finishing touches to the UI
 
 
 The following **additional** features are implemented:
